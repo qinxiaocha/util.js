@@ -108,12 +108,4 @@ export const browser = {
 }
 
 
-export const share = function() {
-  var url = 'http://www.pgyer.com/casemanager';
-  var title = '同策-案场管家';
-  var content = '让你随时随地轻松管控案场！';
-  var imageUrl = "/assets/images/logo.png";
-  SharePlugin.share(function(success) {}, function(error) {}, url, title, content, imageUrl);
-}
-
 ```
